@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE099E6A2226256400B8A20E /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE099E692226256400B8A20E /* Smoke.sks */; };
+		CE196FDE2230798C00117313 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE196FDC2230798C00117313 /* Fire.sks */; };
+		CE196FE1223079FE00117313 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE196FE0223079FE00117313 /* Spark.sks */; };
+		CE4C5AE822207A1F00A4D989 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C5AE722207A1F00A4D989 /* ContainerViewController.swift */; };
+		CE4C5AEA22207A4700A4D989 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C5AE922207A4700A4D989 /* UIViewController+Extensions.swift */; };
+		CE4C5AEC22207B2E00A4D989 /* NSLayoutConstraints+Extentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C5AEB22207B2E00A4D989 /* NSLayoutConstraints+Extentsions.swift */; };
 		CE6CF31E221F83600001E3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF31D221F83600001E3EA /* AppDelegate.swift */; };
-		CE6CF320221F83600001E3EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF31F221F83600001E3EA /* ViewController.swift */; };
 		CE6CF323221F83600001E3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6CF321221F83600001E3EA /* Main.storyboard */; };
-		CE6CF325221F83690001E3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6CF324221F83690001E3EA /* Assets.xcassets */; };
 		CE6CF328221F83690001E3EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6CF326221F83690001E3EA /* LaunchScreen.storyboard */; };
+		CE6CF330221F83800001E3EA /* SnowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF32F221F83800001E3EA /* SnowViewController.swift */; };
+		CE6CF332221F83B90001E3EA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF331221F83B90001E3EA /* GradientView.swift */; };
+		CE6CF334221F83CD0001E3EA /* SnowParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF333221F83CD0001E3EA /* SnowParticleView.swift */; };
+		CE6CF336221F84170001E3EA /* ConfettiParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF335221F84170001E3EA /* ConfettiParticleView.swift */; };
+		CE6CF338221F85430001E3EA /* ConfettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CF337221F85430001E3EA /* ConfettiViewController.swift */; };
+		CE9EA5E52220B76E002D8DA7 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE9EA5E32220B76E002D8DA7 /* Rain.sks */; };
+		CE9EA5E62220B76E002D8DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9EA5E42220B76E002D8DA7 /* Assets.xcassets */; };
+		CE9EA5E82220C3CB002D8DA7 /* FireworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EA5E72220C3CB002D8DA7 /* FireworksViewController.swift */; };
+		CE9EA5EA2220C3F3002D8DA7 /* FireworksParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EA5E92220C3F3002D8DA7 /* FireworksParticleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE099E692226256400B8A20E /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		CE196FDC2230798C00117313 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		CE196FE0223079FE00117313 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		CE4C5AE722207A1F00A4D989 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		CE4C5AE922207A4700A4D989 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		CE4C5AEB22207B2E00A4D989 /* NSLayoutConstraints+Extentsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraints+Extentsions.swift"; sourceTree = "<group>"; };
 		CE6CF31A221F83600001E3EA /* FunWithParticleEmitters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithParticleEmitters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6CF31D221F83600001E3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE6CF31F221F83600001E3EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE6CF322221F83600001E3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE6CF324221F83690001E3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6CF327221F83690001E3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6CF329221F83690001E3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6CF32F221F83800001E3EA /* SnowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowViewController.swift; sourceTree = "<group>"; };
+		CE6CF331221F83B90001E3EA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CE6CF333221F83CD0001E3EA /* SnowParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowParticleView.swift; sourceTree = "<group>"; };
+		CE6CF335221F84170001E3EA /* ConfettiParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiParticleView.swift; sourceTree = "<group>"; };
+		CE6CF337221F85430001E3EA /* ConfettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiViewController.swift; sourceTree = "<group>"; };
+		CE9EA5E32220B76E002D8DA7 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		CE9EA5E42220B76E002D8DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		CE9EA5E72220C3CB002D8DA7 /* FireworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksViewController.swift; sourceTree = "<group>"; };
+		CE9EA5E92220C3F3002D8DA7 /* FireworksParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksParticleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +81,50 @@
 			isa = PBXGroup;
 			children = (
 				CE6CF31D221F83600001E3EA /* AppDelegate.swift */,
-				CE6CF31F221F83600001E3EA /* ViewController.swift */,
+				CEFF1C04222853F900DCE9E8 /* View Controllers */,
+				CEFF1C052228540300DCE9E8 /* Extensions */,
+				CEFF1C03222853E000DCE9E8 /* Custom Views */,
 				CE6CF321221F83600001E3EA /* Main.storyboard */,
-				CE6CF324221F83690001E3EA /* Assets.xcassets */,
+				CE9EA5E42220B76E002D8DA7 /* Assets.xcassets */,
 				CE6CF326221F83690001E3EA /* LaunchScreen.storyboard */,
+				CE196FDC2230798C00117313 /* Fire.sks */,
+				CE099E692226256400B8A20E /* Smoke.sks */,
+				CE9EA5E32220B76E002D8DA7 /* Rain.sks */,
+				CE196FE0223079FE00117313 /* Spark.sks */,
 				CE6CF329221F83690001E3EA /* Info.plist */,
 			);
 			path = FunWithParticleEmitters;
+			sourceTree = "<group>";
+		};
+		CEFF1C03222853E000DCE9E8 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CF331221F83B90001E3EA /* GradientView.swift */,
+				CE9EA5E92220C3F3002D8DA7 /* FireworksParticleView.swift */,
+				CE6CF333221F83CD0001E3EA /* SnowParticleView.swift */,
+				CE6CF335221F84170001E3EA /* ConfettiParticleView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CEFF1C04222853F900DCE9E8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C5AE722207A1F00A4D989 /* ContainerViewController.swift */,
+				CE6CF32F221F83800001E3EA /* SnowViewController.swift */,
+				CE9EA5E72220C3CB002D8DA7 /* FireworksViewController.swift */,
+				CE6CF337221F85430001E3EA /* ConfettiViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CEFF1C052228540300DCE9E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C5AE922207A4700A4D989 /* UIViewController+Extensions.swift */,
+				CE4C5AEB22207B2E00A4D989 /* NSLayoutConstraints+Extentsions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +185,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE196FDE2230798C00117313 /* Fire.sks in Resources */,
 				CE6CF328221F83690001E3EA /* LaunchScreen.storyboard in Resources */,
-				CE6CF325221F83690001E3EA /* Assets.xcassets in Resources */,
+				CE9EA5E52220B76E002D8DA7 /* Rain.sks in Resources */,
 				CE6CF323221F83600001E3EA /* Main.storyboard in Resources */,
+				CE9EA5E62220B76E002D8DA7 /* Assets.xcassets in Resources */,
+				CE099E6A2226256400B8A20E /* Smoke.sks in Resources */,
+				CE196FE1223079FE00117313 /* Spark.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6CF320221F83600001E3EA /* ViewController.swift in Sources */,
+				CE4C5AEC22207B2E00A4D989 /* NSLayoutConstraints+Extentsions.swift in Sources */,
 				CE6CF31E221F83600001E3EA /* AppDelegate.swift in Sources */,
+				CE4C5AE822207A1F00A4D989 /* ContainerViewController.swift in Sources */,
+				CE9EA5EA2220C3F3002D8DA7 /* FireworksParticleView.swift in Sources */,
+				CE9EA5E82220C3CB002D8DA7 /* FireworksViewController.swift in Sources */,
+				CE6CF332221F83B90001E3EA /* GradientView.swift in Sources */,
+				CE4C5AEA22207A4700A4D989 /* UIViewController+Extensions.swift in Sources */,
+				CE6CF338221F85430001E3EA /* ConfettiViewController.swift in Sources */,
+				CE6CF334221F83CD0001E3EA /* SnowParticleView.swift in Sources */,
+				CE6CF336221F84170001E3EA /* ConfettiParticleView.swift in Sources */,
+				CE6CF330221F83800001E3EA /* SnowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S264RF7436;
 				INFOPLIST_FILE = FunWithParticleEmitters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S264RF7436;
 				INFOPLIST_FILE = FunWithParticleEmitters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
