@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE099E6A2226256400B8A20E /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE099E692226256400B8A20E /* Smoke.sks */; };
-		CE196FDE2230798C00117313 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE196FDC2230798C00117313 /* Fire.sks */; };
 		CE196FE1223079FE00117313 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE196FE0223079FE00117313 /* Spark.sks */; };
 		CE4C5AE822207A1F00A4D989 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C5AE722207A1F00A4D989 /* ContainerViewController.swift */; };
 		CE4C5AEA22207A4700A4D989 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C5AE922207A4700A4D989 /* UIViewController+Extensions.swift */; };
@@ -25,11 +24,11 @@
 		CE9EA5E62220B76E002D8DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9EA5E42220B76E002D8DA7 /* Assets.xcassets */; };
 		CE9EA5E82220C3CB002D8DA7 /* FireworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EA5E72220C3CB002D8DA7 /* FireworksViewController.swift */; };
 		CE9EA5EA2220C3F3002D8DA7 /* FireworksParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EA5E92220C3F3002D8DA7 /* FireworksParticleView.swift */; };
+		CEE3C6B7223727B6006C8C35 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = CEE3C6B6223727B6006C8C35 /* Fire.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE099E692226256400B8A20E /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
-		CE196FDC2230798C00117313 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		CE196FE0223079FE00117313 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
 		CE4C5AE722207A1F00A4D989 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		CE4C5AE922207A4700A4D989 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		CE9EA5E42220B76E002D8DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		CE9EA5E72220C3CB002D8DA7 /* FireworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksViewController.swift; sourceTree = "<group>"; };
 		CE9EA5E92220C3F3002D8DA7 /* FireworksParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksParticleView.swift; sourceTree = "<group>"; };
+		CEE3C6B6223727B6006C8C35 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 				CE6CF321221F83600001E3EA /* Main.storyboard */,
 				CE9EA5E42220B76E002D8DA7 /* Assets.xcassets */,
 				CE6CF326221F83690001E3EA /* LaunchScreen.storyboard */,
-				CE196FDC2230798C00117313 /* Fire.sks */,
 				CE099E692226256400B8A20E /* Smoke.sks */,
 				CE9EA5E32220B76E002D8DA7 /* Rain.sks */,
+				CEE3C6B6223727B6006C8C35 /* Fire.sks */,
 				CE196FE0223079FE00117313 /* Spark.sks */,
 				CE6CF329221F83690001E3EA /* Info.plist */,
 			);
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE196FDE2230798C00117313 /* Fire.sks in Resources */,
+				CEE3C6B7223727B6006C8C35 /* Fire.sks in Resources */,
 				CE6CF328221F83690001E3EA /* LaunchScreen.storyboard in Resources */,
 				CE9EA5E52220B76E002D8DA7 /* Rain.sks in Resources */,
 				CE6CF323221F83600001E3EA /* Main.storyboard in Resources */,
@@ -368,7 +368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FunWithParticleEmitters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -387,7 +387,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FunWithParticleEmitters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
